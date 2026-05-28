@@ -1,0 +1,7 @@
+interface:
+  display_name: GG → Notebooklm → NotebookLM Operations
+  short_description: Add, import, and manage sources in Google NotebookLM; run Fast/Deep Research; customise chat; capture answers to local files.
+  default_prompt: Use notebooklm/SKILL.md when the task involves managing NotebookLM sources, importing from Google Drive, running research workflows, customising chat settings, or capturing notebook answers to local files.
+  brand_color: '#6366f1'
+  icon_large: ./assets/icon-large.png
+  icon_small: ./assets/icon-small.svg

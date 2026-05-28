@@ -1,0 +1,14 @@
+**The Four Questions**
+1. Verb: import
+2. Object: a vacuum cleaner that eats files from Google Drive and spits them into NotebookLM
+3. Animal: a pelican cramming every fish in the ocean into its pouch because it cannot remember which ones it already swallowed
+4. Most annoying manual task: clicking through hundreds of Drive files one by one, checking each to see if it's already in the notebook, selecting exactly 25 at a time, importing, waiting, and repeating until done
+
+**The Reality**
+This skill is basically a bouncer and a filing clerk rolled into one robot. It stands at the door of your Google Drive, grabs batches of 25 files (no more, no less — the picker has a limit and the robot is not smart enough to argue), shoves them into your NotebookLM, and then throws away the duplicates that slipped in anyway. The bouncer part also handles deletion, but here's the fun part: when you tell it to remove a source, the backend still counts it against your quota for a while, like a bouncer who writes you up for leaving even after you've already left the club.
+
+**The Superpower and the Mockery**
+Here is where this skill flexes hard: it runs Deep Research while you sleep, customizes chat answers to sound like a stern professor or a cheerful yoga instructor, and saves those answers to your local disk like a loyal dog that fetches your homework. It will hunt down every source in your Drive, batch-import 268 of them before hitting the invisible wall, and then give you a nice report. It has no idea if those sources actually make sense together — it just knows the counter went up.
+
+**The Mockery**
+But this skill is also deeply paranoid about source counts. It checks the chat footer instead of the header because the header sometimes shows ghost sources — rows that look real but are actually phantoms from failed imports, like a magician's assistant that waves a fake wand. It knows about quota cooldown, so it won't try to reimport immediately after deleting, because it learned that the hard way. And when it clicks the Drive picker? It uses a coordinate-based magic trick because the normal clicker can't see through the cross-origin iframe, like trying to throw a ball through a window you cannot actually see through.
